@@ -15,8 +15,8 @@ public class AuthorizationConfig extends AuthorizationServerConfigurerAdapter {
     @Override
     public void configure(ClientDetailsServiceConfigurer clients) throws Exception {
         clients.inMemory()
-                .withClient("bridgex")
-                .secret("wemb1234")
+                .withClient("my-client")
+                .secret("client_secret")
                 .scopes("read:current_user", "read:users")
                 .authorizedGrantTypes("client_credentials");
     }

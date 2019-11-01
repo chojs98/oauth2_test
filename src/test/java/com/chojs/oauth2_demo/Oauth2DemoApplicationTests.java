@@ -1,4 +1,4 @@
-package com.wemb.tim.oauth2_demo;
+package com.chojs.oauth2_demo;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.wemb.tim.oauth2_demo.config;
+package com.chojs.oauth2_demo.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
